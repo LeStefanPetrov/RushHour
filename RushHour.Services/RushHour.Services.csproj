@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RushHour.Contracts\RushHour.Contracts.csproj" />
+    <ProjectReference Include="..\RushHour.DataAccessLayer\RushHour.DataAccessLayer.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+cd .\RushHour.DataAccessLayer
+
+dotnet ef migrations add RushHour
+dotnet ef database update
+
+
+dotnet ef --startup-project E:\Programming\GitLab\RushHour\RushHour migrations add RushHour
+
+dotnet ef --startup-project E:\Programming\GitLab\RushHour\RushHour database update
+
